@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<style>
+    h1{
+    color:blue;
+    text-align:center;
+    font-weight:bold;
+    }
+   body{
+   background-image:url('https://wallpapercave.com/wp/wp8224471.jpg');
+   background-size:1400px 650px;
+    background-repeat:no-repeat;
+
+   }
+   div{
+   margin:10px;
+   }
+   label{
+   background-color:yellow;
+   font-size:20px;
+   font-weight:bold;
+   width:100%;
+   }
+   .a{
+   width:100%;
+   float:left;
+   }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <H1>CROP RECOMMENDATION SYSTEM</H1>
+</head>
+<hr color="orange"><br>
+<body>
+<form action="/predict" method="post">
+    <div><label>Enter the Phosphorous value of the soil</label>
+<input type="number" min="0" max="150" class="a" name="P" required> <br>
+</div><br>
+    <div><label>Enter the Nitrogen value of the soil</label>
+<input type="number" min="0" max="150" class="a" name="N" required><br> </div><br>
+    <div><label>Enter the Potassium value of the soil</label>
+<input type="number" min="0" max="210" class="a" name="K" required><br> </div><br>
+<div><label>Enter the average Temparature value around the field</label>
+<input type="number" min="0" max="60" class="a" name="temperature" required><br> </div><br>
+    <div><label>Enter the average percentage of Humidity around the field</label>
+<input type="number" min="0" max="100" class="a" name="humidity" required><br> </div><br>
+    <div><label>Enter the Ph value of the soil</label>
+<input type="number" min="0" max="14" class="a" name="ph" required><br> </div><br>
+    <div><label>Enter the average amount of Rainfall around the field</label>
+<input type="number" min="0" max="300" class="a" name="rainfall" required><br> </div><br>
+<div align="center"><input style="color:blue"  type="submit" value="Submit">
+</div><br>
+</form>
+</body><br>
+</html>

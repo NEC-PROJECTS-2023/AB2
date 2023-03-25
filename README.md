@@ -1,4 +1,8 @@
 # AB2
+Sunkara vamsi Krishna-19471A0559
+Doddi Tarun Sai-19471A0518
+Bezawada Srikanth-19471A0503
+
 Crop Recommendation System Using Machine Learning
 helpful for the farmers in
 making decisions about which crops has to grow in their 

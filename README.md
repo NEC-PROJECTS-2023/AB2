@@ -11,7 +11,6 @@ Doddi Tarun Sai-19471A0518,
 Bezawada Srikanth-19471A0503
 
 Introduction:
-
 Crop Recommendation System Using Machine Learning
 helpful for the farmers in
 making decisions about which crops has to grow in their 
